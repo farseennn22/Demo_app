@@ -28,7 +28,7 @@ st.markdown("""
 </style>
 """, unsafe_allow_html=True)
 st.markdown("## Student Profile Application")
-st.write("Developed by Bhagirathi")
+st.write("Developed by AFRA FARSEEN")
 st.info(
     "Fill in your details and click View My Profile."
 )
@@ -47,9 +47,9 @@ with st.form("student_form"):
          "ME", "CIVIL", "AIML", "Other"]
     )
     year = st.radio(
-        "Current Year",
+        "Current Year",st
         ["1st Year", "2nd Year",
-         "3rd Year", "4th Year"]
+         "3rd Year", "4th Year"]st
     )
     submit = st.form_submit_button(
         "View My Profile"
